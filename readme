@@ -1,0 +1,25 @@
+# Fake News Detection using Machine Learning
+
+## Overview
+This project is a Natural Language Processing (NLP) model designed to classify news articles as either "Real" or "Fake." It processes raw text data, converts it into numerical features using TF-IDF vectorization, and makes predictions using a Logistic Regression classification algorithm.
+
+## Technologies Used
+* **Language:** Python
+* **Data Manipulation:** Pandas
+* **Text Preprocessing:** Regular Expressions (re)
+* **Machine Learning:** Scikit-Learn (Logistic Regression, TfidfVectorizer)
+
+## The Process
+1. **Data Cleaning:** Removed punctuation, special characters, and converted all text to lowercase.
+2. **Feature Engineering:** Converted raw text into TF-IDF (Term Frequency-Inverse Document Frequency) vectors to highlight the importance of specific words.
+3. **Model Training:** Split the data (80% training, 20% testing) and trained a Logistic Regression model.
+4. **Evaluation:** Tested the model against unseen data to verify accuracy and prevent overfitting.
+
+## Results
+* The model achieved an accuracy of **[Type your accuracy score here, e.g., 98.5%]** on the testing dataset.
+* Built a manual testing function to evaluate real-time headlines with immediate predictions.
+
+## How to Run
+1. Clone this repository.
+2. Install dependencies: `pip install -r requirements.txt`
+3. Run the Jupyter Notebook to see the step-by-step data analysis and model training.

@@ -1,0 +1,6 @@
+<<<<<<< HEAD
+pandas
+=======
+pandas
+>>>>>>> 439f96a00cdfa559d533f1af45bf80ea24bd4cfa
+scikit-learn
